@@ -16,14 +16,14 @@
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:hint="city"
+            android:hint="name"
             android:textColorHint="@color/design_default_color_error"
             app:counterEnabled="true"
             app:counterMaxLength="15"
             app:counterOverflowTextAppearance="@style/AppTheme">
 
             <EditText
-                android:id="@+id/editText"
+                android:id="@+id/editTextStartView"
                 android:layout_width="257dp"
                 android:layout_height="38dp"
                 android:layout_marginTop="192dp"
@@ -40,13 +40,11 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:onClick="onClickButton"
-            android:text="push" />
+            android:text="Войти" />
 
     </LinearLayout>
 
-    <include
-        layout="@layout/bottom_sheet"
-        />
+
 
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
